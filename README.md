@@ -1,2 +1,6 @@
 # AntennaTest
-Very simple program to test antenne with 2 LoRa node's
+These programs are based on the programs publishes by sensorsiot found ohere:
+
+https://github.com/SensorsIot/Antenna-Tester
+
+The program is simplified a little by removing the GPS parts, which are not needed for comparing antenna's
