@@ -1,5 +1,5 @@
 # AntennaTest
-These programs are based on the programs publishes by sensorsiot found ohere:
+These programs are based on the programs publishes by sensorsiot found here:
 
 https://github.com/SensorsIot/Antenna-Tester
 
