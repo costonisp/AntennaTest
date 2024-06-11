@@ -22,8 +22,8 @@ Button on pin 13
 #define RST     14
 #define DI0     26
 
-#define STARTPIN 13 // for microbutton on tbeam board
-// #define STARTPIN 25 // for external push buttom
+#define STARTPIN 25 // for microbutton on tbeam board
+// #define STARTPIN 13 // for external push buttom
 
 #define spreadingFactor 9
 #define SignalBandwidth 125E3
