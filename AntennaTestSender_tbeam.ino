@@ -1,8 +1,9 @@
-/* Antenna-tester for LoRa T-beam ESP32
+/* Antenna-tester for LoRa T-beam ESP32 
+Hardware T-beam  T22 V1.2
+BoardManager 2.0.16  board-type T-beam
 I2C: SSD1306/SSD1309  display(0x3c, 21, 22); (ADRESS,SDA,SCL)
-External Button on pin 13
- 
- */
+External Button on pin 13 
+*/
 #include "SSD1306.h" // alias for `#include "SSD1306Wire.h"'
 #include <LoRa.h>
 #include <ArduinoJson.h>
@@ -22,8 +23,8 @@ External Button on pin 13
 #define RST     14
 #define DI0     26
 
-#define STARTPIN 25 // for microbutton on tbeam board
-// #define STARTPIN 13 // for external push buttom
+// #define STARTPIN 25 // for microbutton on tbeam board
+#define STARTPIN 13 // for external push buttom
 
 #define spreadingFactor 9
 #define SignalBandwidth 125E3
