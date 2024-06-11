@@ -1,6 +1,6 @@
 /* Antenna-tester for LoRa T-beam ESP32
 I2C: SSD1306/SSD1309  display(0x3c, 21, 22); (ADRESS,SDA,SCL)
-Button on pin 13
+External Button on pin 13
  
  */
 #include "SSD1306.h" // alias for `#include "SSD1306Wire.h"'
