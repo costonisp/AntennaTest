@@ -6,7 +6,7 @@
   Works i.c.w. t-beam for measuring Antenna's
   
  */
-#include <ArduinoJson.h>
+#include <ArduinoJson.h> // version 5.13 is used higher versions may not work
 #include <LoRa.h>
 
 /*WeMos D1          RFM9x Module
