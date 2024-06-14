@@ -6,7 +6,7 @@
   Heltec v2
  */
 #include <ArduinoJson.h>  // version 5.13 is used higher versions may not work
-#include <LoRa.h>         
+#include <LoRa.h>         // Sandeep Mistry version 0.8.0    
 
 #define SS     18 // D0
 #define RST    14 // D0
