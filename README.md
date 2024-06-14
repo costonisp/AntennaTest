@@ -4,7 +4,7 @@ For the WeMos you need to add this line "package_esp8266com_index.json" under pr
 
 AntennaTestRec_wemos is a receiver program for a WeMos module. 
 
-AntennaTestRec_ESP32 is a receiver program for a ESP32 module. It is tested on Tbeam and Heltec v1
+AntennaTestRec_ESP32 is a receiver program for a ESP32 module. It is tested on Tbeam and Heltec v2
 
 AntennaTestSender_tbeam is the sender program and is tested on T-beam:
 
