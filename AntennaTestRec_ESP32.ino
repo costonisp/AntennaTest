@@ -7,8 +7,8 @@
   Tbeam v1.1
   Heltec v2
  */
-#include <ArduinoJson.h>
-#include <LoRa.h>
+#include <ArduinoJson.h>  // version 5.13 is used higher versions may not work
+#include <LoRa.h>         
 
 #define SS     18 // D0
 #define RST    14 // D0
