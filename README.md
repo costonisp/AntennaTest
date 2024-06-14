@@ -7,7 +7,7 @@ AntennaTestRec_wemos is a receiver program for a WeMos module.
 
 AntennaTestRec_ESP32 is a receiver program for a ESP32 module. It is tested on Tbeam and Heltec v1
 
-AntennaTestSender_tbeam is the sender program and is testedon a T-beam:
+AntennaTestSender_tbeam is the sender program and is tested on T-beam:
 
 
 These programs are based on the programs publishes by SensorsIot found here:
