@@ -1,6 +1,6 @@
 # AntennaTest
 2 simple programs written for the Arduino GUI.
-For compiling you need to install esp32 by Expressiff Systems. 
+For compiling you need to install esp32 by Expressiff Systems with the Board Manager.
 For the WeMos you need to add this line "package_esp8266com_index.json" under preferences in the 'Additional Boards Manager URL's'.
 
 There is a receiver program for a WeMos module: AntennaTestRec_wemos
