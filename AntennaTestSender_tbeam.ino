@@ -5,7 +5,7 @@ I2C: SSD1306/SSD1309  display(0x3c, 21, 22); (ADRESS,SDA,SCL)
 External Button on pin 13 
 */
 #include "SSD1306.h" // alias for `#include "SSD1306Wire.h"'
-#include <LoRa.h>
+#include <LoRa.h>    // by Sandeep Mistry version 0.8.0
 #include <ArduinoJson.h> // version 5.13 is used higher versions may not work
 
 // WIFI_LoRa_32 ports
