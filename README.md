@@ -4,7 +4,7 @@ Simple program for comparing the gain of Antenna's
 Testing a unknown antenna compared to a reference antenna on one single frequency.
 First test the reference antenna, usually a GP or j-beam, which has a gain very close to 2.15dBi
 Make a note on the RSSI of your reference antenna.
-Now connect the antenna you want to measure to the sender and make a note om the RSSI.
+Now connect the antenna you want to measure to the sender and make a note of the RSSI.
 RSSI is usually a negative dBm number. The difference is the gain compared to your reference antenna. 
 For a stubby antenna this gain will likely be negative, worse than your reference antenna.
 
