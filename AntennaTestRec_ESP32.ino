@@ -1,7 +1,5 @@
 /* 
   Receiver with ESP32
-  ESP8266 community version 2.6 & 3.0.0 & 3.1.2  OK
-  board ESP32
   Receiver tested on:
   Tbeam v1.0
   Tbeam v1.1
@@ -77,8 +75,6 @@ void receivingMessage () {
 }
 
 void initLoRa() {
-  //SPI.begin();
-  //LoRa.setPins(D0, D0, D8);
   SPI.begin(5, 19, 27, 18);
   LoRa.setPins(SS, RST, DI0);
   if (!LoRa.begin(FREQUENCY)) {
