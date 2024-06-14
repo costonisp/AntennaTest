@@ -7,7 +7,7 @@
   
  */
 #include <ArduinoJson.h> // version 5.13 is used higher versions may not work
-#include <LoRa.h>
+#include <LoRa.h>        // by Sandeep Mistry version 0.8.0
 
 /*WeMos D1          RFM9x Module
   GPIO12 (D6) <----> MISO
