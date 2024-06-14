@@ -5,7 +5,7 @@
   Receiver tested on:
   Tbeam v1.0
   Tbeam v1.1
-  Heltec v1.0
+  Heltec v2
  */
 #include <ArduinoJson.h>
 #include <LoRa.h>
