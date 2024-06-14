@@ -6,7 +6,7 @@ External Button on pin 13
 */
 #include "SSD1306.h" // alias for `#include "SSD1306Wire.h"'
 #include <LoRa.h>
-#include <ArduinoJson.h>
+#include <ArduinoJson.h> // version 5.13 is used higher versions may not work
 
 // WIFI_LoRa_32 ports
 // GPIO5  -- SX1278's SCK
