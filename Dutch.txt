@@ -1,0 +1,23 @@
+Mijn opstelling om antenne's te testen bestaat uit 2 LoRa node's voorzien van eenvoudige programma's.
+
+Node A , een ESP32 node (T-beam met display) met het programma AntennaTestSender_tbeam
+Node B , een wemos (ESP8266) voorzien van RFM95 LoRa module met het programma AntennaTestRec_wemos.
+OF
+NodeB , een ESP32 node (zonder display) (t-beam, heltec v2) met het programma AntennaTestRec_ESP32
+
+Node A staat op een paaltje liefst in het vrije veld. De te vergelijken antenne's worden een voor een op node A aangesloten. Op de display is het gemiddelde resultaat van een serie van b.v. 50 testen voor de te testen antenne te lezen.
+
+Node B is de node die de RSSI v/h testsignaal meet en de waarde terugstuurt naar Node A. 
+
+Als Node A een geldige RSSI waarde heeft ontvangen word dit intern opgeslagen. Dan word de teller verhoogd waarna een nieuw testsignaal wordt verzonden.
+Dit wordt herhaald totdat de teller de waarde heeft bereikt die in het programma wordt opgegeven. De gemiddelde RSSI waarde wordt nu op de display getoont.
+50 testen duurt ongeveer 1 minuut. 
+
+Node B kan b.v. aan een boom hangen of in/op een auto geinstalleerd worden. Het is belangrijk dat Node B met zijn antenne stabiel zijn geinstalleerd. Iedere beweging van Node B of beinvloeding in de nabije omgeving zoals voetgangers/fietsers, voorbij rijdende auto's zelfs bewegende bomen in de wind kunnen de sterkte v/d RSSI beinvloeden. Daarom is het belangrijk om een voldoende aantal metingen te middelen om een zinnig resultaat te krijgen.
+
+Node A kan het beste aan een stok/buis gemonteerd worden waarbovenop de testantenne wordt geplaatst.
+Ook hier is het van belang dat er zo min mogelijk beinvloeding van de antenne plaats vind.
+Op Node A  zit een drukknop om de testprocedure te starten, na 4 seconden begint dan de testprocedure. De experimentator moet tijdens de test voldoende afstand tot de antenne houden omdat ieder object in het nabije veld van de antenne de meting kan verstoren.
+
+Hoe meer beide node's stabiel in het vrije veld staan hoe nauwkeuriger het resultaat zal zijn.
+Het resultaat is geen preciese waarde van de antenne dBi maar een getal wat aangeeft hoeveel dB beter (of slechter) de testantenne is t.o.v. een referentie antenne. Een GP, dipool, sleeved dipool of j-pole hebben allen een versterking van ongeveer 2.1 a 2.2  dBi. (mits resonant op de testfrequentie)
