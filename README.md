@@ -15,15 +15,12 @@ For the Wemos you need to add this line "package_esp8266com_index.json" under pr
 At the moment the programs are tested with older library versions, you may need to downgrade them.
 
 ArduinoJson library version 5.13, 
-
 LoRa library by Sandeep Mistry version 0.8.0
 
+- **Versions for different type of boards:**
 - **AntennaTestRec_wemos** is a receiver program for a Wemos module. 
-
 - **AntennaTestRec_ESP32** is a receiver program for a ESP32 module. It is tested on Tbeam and Heltec v2
-
 - **AntennaTestSender_tbeam** is the sender program and is tested on T-beam:
-
 - **AntennaTestSender_heltecV2** is the sender program and is tested on Heltec V2:
 
 These programs are based on the programs publishes by SensorsIot found here:
