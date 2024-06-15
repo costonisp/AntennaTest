@@ -1,5 +1,5 @@
 /* Antenna-tester for LoRa Heltec V2
-BoardManager 2.0.16    Board T-beam
+BoardManager 2.0.16    Board HeltecV2
 I2C: SSD1306/SSD1309  display(0x3c, 4, 15); (ADRESS,SDA,SCL)
 */
 #include "SSD1306.h" // alias for `#include "SSD1306Wire.h"'
