@@ -21,7 +21,7 @@ I2C: SSD1306/SSD1309  display(0x3c, 4, 15); (ADRESS,SDA,SCL)
 #define RST     14
 #define DI0     26
 
-// freq, SF, BW are hardcoded in the setup
+// freq, SF, BW are used as numbers in the setup
 #define FREQUENCY 868900000
 #define spreadingFactor 9
 #define SignalBandwidth 125E3
