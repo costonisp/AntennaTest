@@ -24,6 +24,8 @@ AntennaTestRec_ESP32 is a receiver program for a ESP32 module. It is tested on T
 
 AntennaTestSender_tbeam is the sender program and is tested on T-beam:
 
+AntennaTestSender_HeltecV2 is the sender program and is tested on Heltec V2:
+
 These programs are based on the programs publishes by SensorsIot found here:
 https://github.com/SensorsIot/Antenna-Tester
 The programs are simplified  by removing the GPS parts, which are not needed for comparing antenna's
